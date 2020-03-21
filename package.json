@@ -1,0 +1,23 @@
+{
+  "name": "htmlparse",
+  "version": "1.0.0",
+  "description": "html parse",
+  "main": "lib/parse.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSextend19/htmlParse.git"
+  },
+  "keywords": [
+    "html",
+    "parse"
+  ],
+  "author": "usernameisregistered",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSextend19/htmlParse/issues"
+  },
+  "homepage": "https://github.com/JSextend19/htmlParse#readme"
+}
