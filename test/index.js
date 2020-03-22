@@ -3,7 +3,7 @@ const colors = require("colors");
 const moment = require("moment");
 const fs = require("fs");
 const parseHTML = require("../lib/parseHTML");
-
+const JSON5 = require('json5')
 function  index(){
     const inputDir = path.join(__dirname,"../html");
     const outputHTMLDir = path.join(__dirname,"../escapeHtml");
@@ -19,8 +19,11 @@ function  index(){
                 let outputHTMLFile = path.join(outputHTMLDir,fileName);
                 console.log(colors.cyan(`[${moment().format("yyyy-mm-dd hh:mm:ss")}] 写入转义后的文件 【${outputHTMLFile}】`));
                 fs.writeFileSync(outputHTMLFile,escapeHTML);
-                console.log(colors.cyan(`[${moment().format("yyyy-mm-dd hh:mm:ss")}] 获取文档节点信息 【${outputHTMLFile}】`));
+                let outputJOSNFile = path.join(outputJSONDir,fileName.replace(/html$/i,"json"));
+                console.log(colors.cyan(`[${moment().format("yyyy-mm-dd hh:mm:ss")}] 写入文档节点信息 【${outputHTMLFile}】`));
                 parse.getDoument();
+                
+                fs.writeFileSync(outputJOSNFile,JSON.stringify(parse.node,(key,value)=>{if(key === "parentElement"){return null}else{return value}},4));
             }
         }else{
             throw err;

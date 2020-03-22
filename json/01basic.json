@@ -1,0 +1,78 @@
+{
+    "attributes": {
+        "lang": "en",
+        "disabled": true
+    },
+    "classList": [
+        "dffd",
+        "fdsf"
+    ],
+    "className": "dffd fdsf",
+    "id": "",
+    "innerHTML": "\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    hello world\r\n</body>\r\n",
+    "localName": "html",
+    "outerHTML": "<html lang=\"en\" class=\"dffd fdsf\" disabled>\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    hello world\r\n</body>\r\n</html>",
+    "tagName": "HTML",
+    "childrenElments": [],
+    "children": [
+        {
+            "attributes": {},
+            "classList": [],
+            "className": "",
+            "id": "",
+            "innerHTML": "\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n",
+            "localName": "head",
+            "outerHTML": "<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>",
+            "tagName": "HEAD",
+            "childrenElments": [],
+            "children": [
+                {
+                    "attributes": {
+                        "charset": "UTF-8"
+                    },
+                    "classList": [],
+                    "className": "",
+                    "id": "",
+                    "innerHTML": "",
+                    "localName": "meta",
+                    "outerHTML": "<meta charset=\"UTF-8\">",
+                    "tagName": "META",
+                    "childrenElments": null,
+                    "children": null,
+                    "firstElementChild": null,
+                    "lastElementChild": null,
+                    "firstChild": null,
+                    "previousElementSibling": null,
+                    "nextElementSibling": null,
+                    "lastChild": null,
+                    "parentElement": null,
+                    "nodeName": "META",
+                    "nodeType": 1,
+                    "nodeValue": null
+                }
+            ],
+            "firstElementChild": null,
+            "lastElementChild": null,
+            "firstChild": null,
+            "previousElementSibling": null,
+            "nextElementSibling": null,
+            "lastChild": null,
+            "parentElement": null,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": null,
+            "_htmlStr": "<meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    hello world\r\n</body>\r\n"
+        }
+    ],
+    "firstElementChild": null,
+    "lastElementChild": null,
+    "firstChild": null,
+    "previousElementSibling": null,
+    "nextElementSibling": null,
+    "lastChild": null,
+    "parentElement": null,
+    "nodeName": "HTML",
+    "nodeType": 1,
+    "nodeValue": null,
+    "_htmlStr": "<html lang=\"en\" class=\"dffd fdsf\" disabled>\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    hello world\r\n</body>\r\n</html>"
+}
